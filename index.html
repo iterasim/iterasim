@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iteraSim | Advanced CFD & Engineering</title>
+    <meta name="description"
+        content="Master Computational Fluid Dynamics, OpenFOAM, and Machine Learning with iteraSim's advanced workshops and resources.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo-link"><img src="images/iterasim_logo.png" alt="iteraSim" class="logo-img"></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#workshops" class="nav-link">Workshops</a></li>
+                    <li><a href="#resources" class="nav-link">Resources</a></li>
+                    <li><a href="#team" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link btn btn-primary">Get Started</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <span></span><span></span><span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="video-background">
+                <!-- Using high-res generated background instead of blurry video -->
+                <img src="images/hero_bg.png" alt="Futuristic CFD Background" class="hero-bg-img">
+                <div class="video-overlay"></div>
+            </div>
+
+            <div class="container hero-content">
+                <h1 class="hero-title">Simulate the <span class="gradient-text">Future</span></h1>
+                <p class="hero-subtitle">Master Computational Fluid Dynamics, OpenFOAM, and Physics-Informed ML with
+                    world-class workshops and tutorials.</p>
+                <div class="hero-buttons">
+                    <a href="#workshops" class="btn btn-primary">Explore Workshops</a>
+                    <a href="#resources" class="btn btn-secondary">View Resources</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why <span class="highlight">iteraSim?</span></h2>
+                    <p class="section-desc">Bridging the gap between theoretical fluid dynamics and practical industrial
+                        application.</p>
+                </div>
+                <div class="grid features-grid">
+                    <div class="card feature-card">
+                        <div class="icon">🚀</div>
+                        <h3>Advanced CFD</h3>
+                        <p>Deep dive into OpenFOAM, ANSYS, and custom solver development.</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">🧠</div>
+                        <h3>Scientific ML</h3>
+                        <p>Merge fluid dynamics with Machine Learning (PINNs, Operator Learning).</p>
+                    </div>
+                    <div class="card feature-card">
+                        <div class="icon">💻</div>
+                        <h3>Hands-on Coding</h3>
+                        <p>Learn C++ within the OpenFOAM environment from scratch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="workshops" class="workshops section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">iteraSim <span class="highlight">Workshop Sessions</span></h2>
+                    <p class="section-desc">Join our comprehensive hands-on sessions.</p>
+                </div>
+                <div class="grid workshop-grid">
+                    <div class="card workshop-card">
+                        <span class="tag">Flagship</span>
+                        <h3>CFD-ML Global Workshop</h3>
+                        <p>A comprehensive journey into the fusion of CFD and Machine Learning. (Session 01 & 02)</p>
+                        <a href="https://www.youtube.com/watch?v=xtVlxDe8Ueo&t=601s" target="_blank"
+                            class="link-arrow">Watch Orientation &rarr;</a>
+                    </div>
+                    <div class="card workshop-card">
+                        <span class="tag">Popular</span>
+                        <h3>OpenFOAM Hands-On (IIT Bombay)</h3>
+                        <p>Basics of OpenFOAM, Meshing, and running your first test case.</p>
+                        <a href="https://www.youtube.com/watch?v=u8EQdjeQ_yI&list=PLFzs-gS0NxDqV2YtQRGPocHsQ3sGQ56IN"
+                            target="_blank" class="link-arrow">Start Learning &rarr;</a>
+                    </div>
+                    <div class="card workshop-card">
+                        <span class="tag">Essential</span>
+                        <h3>ANSYS FEA Workshop</h3>
+                        <p>Fundamental concepts of Finite Element Analysis and structural analysis.</p>
+                        <a href="https://www.youtube.com/watch?v=lgYVsy2RP8g&list=PLFzs-gS0NxDowZzqLoSRiTwNg1ev9rJM8"
+                            target="_blank" class="link-arrow">Watch Series &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Learning <span class="highlight">Resources</span></h2>
+                    <p class="section-desc">Curated tutorials on OpenFOAM, C++, and CFD Theory.</p>
+                </div>
+
+                <div class="category-group">
+                    <h3 class="category-title">OpenFOAM & C++ Development</h3>
+                    <div class="grid features-grid">
+                        <div class="card video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube-nocookie.com/embed/CopTbUT2czM"
+                                    title="Hello World in OpenFOAM" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h3>Hello World in OpenFOAM</h3>
+                                <p>Your first step into programming within the OpenFOAM environment.</p>
+                            </div>
+                        </div>
+                        <div class="card video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube-nocookie.com/embed/9OoTGPTZxw8"
+                                    title="Understanding Classes" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h3>Understanding Classes</h3>
+                                <p>Deep dive into C++ classes, constructors, and pointers in OpenFOAM context.</p>
+                            </div>
+                        </div>
+                        <div class="card video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube-nocookie.com/embed/ghU1YSRe6fY"
+                                    title="The objectRegistry" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h3>The objectRegistry</h3>
+                                <p>Mastering one of the most important concepts in OpenFOAM structure.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-group" style="margin-top: 4rem;">
+                    <h3 class="category-title">Solvers & Utilities From Scratch</h3>
+                    <div class="grid features-grid">
+                        <div class="card video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/W8bhrHixWDg" title="blockMeshDict Mastery"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h3>blockMeshDict Mastery</h3>
+                                <p>Learn to create simple geometries like cubes and cylinders manually.</p>
+                            </div>
+                        </div>
+                        <div class="card video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/Ixok9IJ97MQ" title="Modifying Solvers"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h3>Modifying Solvers</h3>
+                                <p>How to add temperature equations to simpleFOAM and create custom solvers.</p>
+                            </div>
+                        </div>
+                        <div class="card video-card">
+                            <div class="video-container">
+                                <iframe src="https://www.youtube.com/embed/6x14uJH92G4" title="SIMPLEC, PISO, PIMPLE"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="video-info">
+                                <h3>SIMPLEC, PISO, PIMPLE</h3>
+                                <p>Understanding the algorithms behind pressure-velocity coupling.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="team section dark-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Meet the <span class="highlight">Team</span></h2>
+                    <p class="section-desc">The minds behind iteraSim.</p>
+                </div>
+
+                <div class="grid team-grid">
+                    <!-- Advisor -->
+                    <div class="card team-card">
+                        <div class="team-img-wrapper">
+                            <img src="images/Prof_Sandip_Kumar_Saha.jpg" alt="Prof. Sandip Kumar Saha">
+                        </div>
+                        <h3>Prof. Sandip Kumar Saha</h3>
+                        <p class="role">Advisor & Mentor</p>
+                    </div>
+
+                    <!-- Founder -->
+                    <div class="card team-card">
+                        <div class="team-img-wrapper">
+                            <img src="images/pratyush.png" alt="Pratyush">
+                        </div>
+                        <h3>Pratyush</h3>
+                        <p class="role">Founder & Lead Instructor</p>
+                    </div>
+
+                    <!-- Core Team -->
+                    <div class="card team-card">
+                        <div class="team-img-wrapper">
+                            <img src="images/govind.jpg" alt="Govind">
+                        </div>
+                        <h3>Govind</h3>
+                        <p class="role">Core Team Member</p>
+                    </div>
+
+                    <div class="card team-card">
+                        <div class="team-img-wrapper">
+                            <img src="images/suraj.png" alt="Suraj">
+                        </div>
+                        <h3>Suraj</h3>
+                        <p class="role">Core Team Member</p>
+                    </div>
+
+                    <div class="card team-card">
+                        <div class="team-img-wrapper">
+                            <img src="images/nikhil.png" alt="Nikhil">
+                        </div>
+                        <h3>Nikhil</h3>
+                        <p class="role">Core Team Member</p>
+                    </div>
+
+                    <div class="card team-card">
+                        <div class="team-img-wrapper">
+                            <img src="images/srijna.png" alt="Srijna">
+                        </div>
+                        <h3>Srijna</h3>
+                        <p class="role">Core Team Member</p>
+                    </div>
+
+                    <div class="card team-card">
+                        <div class="team-img-wrapper">
+                            <img src="images/kundeshwar.png" alt="Kundeshwar">
+                        </div>
+                        <h3>Kundeshwar</h3>
+                        <p class="role">Core Team Member</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="milestones" class="milestones section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our <span class="highlight">Journey</span></h2>
+                    <p class="section-desc">Empowering institutions with Open Source Simulation technologies.</p>
+                </div>
+
+                <div class="grid features-grid">
+                    <!-- Nirma University Event -->
+                    <div class="card milestone-card">
+                        <div class="card-img-top">
+                            <img src="images/Nirma_University_Event.jpeg" alt="FMFP Workshop at Nirma University">
+                            <span class="tag">June 2025</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>FMFP Workshop @ Nirma University</h3>
+                            <p>We conducted the first-ever 2-day hands-on OpenFOAM session during the FMFP conference. A
+                                milestone for student empowerment in CFD.</p>
+                        </div>
+                    </div>
+
+                    <!-- IIT Bombay Event -->
+                    <div class="card milestone-card">
+                        <div class="card-img-top">
+                            <img src="images/IIT_Bombay_Event.jpg"
+                                alt="SAP Episode 2.0 at IIT Bombay">
+                            <span class="tag">Aug 2025</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>SAP Episode 2.0 @ IIT Bombay</h3>
+                            <p>Collaborated with PGAC IIT Bombay for a deep-dive workshop on CFD & OpenFOAM, guiding
+                                students from basics to solver customization.</p>
+                        </div>
+                    </div>
+
+                    <!-- FEA Webinar -->
+                    <div class="card milestone-card">
+                        <div class="card-img-top">
+                            <!-- Using a generic photo from event photos as placeholder -->
+                            <img src="images/FEA_Webinar.jpg"
+                                alt="FEA Webinar">
+                            <span class="tag">Recent</span>
+                        </div>
+                        <div class="card-body">
+                            <h3>Introduction to FEA with ABAQUS</h3>
+                            <p>Over 150 participants joined our first FEA session led by Dr. Arun Kamble. A huge step
+                                towards expanding our simulation domains.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-container" style="text-align: center; margin-top: 3rem;">
+                    <p style="margin-bottom: 1rem; color: var(--text-secondary);">Want to host a workshop at your
+                        campus?</p>
+                    <a href="mailto:iterasim@gmail.com" class="btn btn-primary">Collaborate with Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo-link"><img src="images/iterasim_logo.png" alt="iteraSim" class="logo-img"></a>
+                <p>Navigating Possibilities in Fluid Dynamics.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#workshops">Workshops</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/100992244" target="_blank" aria-label="LinkedIn"><i
+                            class="ri-linkedin-fill"></i></a>
+                    <a href="https://www.instagram.com/iterasim" target="_blank" aria-label="Instagram"><i
+                            class="ri-instagram-line"></i></a>
+                    <a href="https://www.facebook.com/iterasim" target="_blank" aria-label="Facebook"><i
+                            class="ri-facebook-fill"></i></a>
+                    <a href="https://www.youtube.com/@advancecfdwithpratyush7162" target="_blank"
+                        aria-label="YouTube"><i class="ri-youtube-fill"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>iterasim@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 iteraSim. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
